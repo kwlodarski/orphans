@@ -1,0 +1,13 @@
+{
+  "name": "kwlodarski/orphans",
+  "description": "The class corrects the orphans so that they cannot stay at the end of the line, replacing the spaces after the orphans with one hard space.",
+  "require": {
+    "php": ">=7.2"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Orphans\\": "src/"
+    }
+  }
+}
